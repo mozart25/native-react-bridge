@@ -1,0 +1,21 @@
+{
+  "name": "@mozart25/native-react-bridge",
+  "version": "1.0.4",
+  "description": "A package for communicating between native code and React web views",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozart25/native-react-bridge.git"
+  },
+  "author": "supasupalee",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
